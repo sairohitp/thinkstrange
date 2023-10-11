@@ -85,7 +85,7 @@ button {
     border-radius: 500px;
     background-color: #1C1B1F;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     transition: 200ms;
     font-size: 14px;
     font-weight: 700;
@@ -96,7 +96,7 @@ button:hover {
     cursor: pointer;
     background-color: white;
     color: #1C1B1F;
-    border: 1px solid #1C1B1F;
+    border: 2px solid #1C1B1F;
     transition: 200ms;
 }
 
@@ -148,7 +148,7 @@ button:hover {
     background-color: white;
     color: black;
     transition: 200ms;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .service:hover {
@@ -164,7 +164,7 @@ button:hover {
     width: fit-content;
     height: fit-content;
     transition: 200ms;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 h4 {
@@ -256,12 +256,12 @@ textarea {
 #submitbutton {
     background-color: white;
     color: black;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 #submitbutton:hover {
     background-color: #e0e0e0;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #e0e0e0;
     color: black;
 }
 
@@ -372,7 +372,7 @@ display: flex;
  gap: 100px;
 }
 
-#image {
+.image {
     width: 550px;
     border-radius: 15px;
     height: fit-content;
@@ -395,15 +395,55 @@ display: flex;
 .operating-procedure {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 80px; */
+}
+
+#section-title {
+    margin-bottom: 100px;
 }
 
 #row { 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: -50px;
 }
 
-#row > div {
-    
+.icon {
+    background-color: black;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+    transition: 200ms;
+}
+
+/* #row > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.icon:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#row > div > h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* #bar {
+    position: relative;
+} */
+
+#bar > hr{
+    width: 90%;
+    height: 2px;
+    background-color: #1C1B1F;
 }

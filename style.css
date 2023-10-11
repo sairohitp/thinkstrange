@@ -1,15 +1,16 @@
-::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: black;
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: black;
 }
 
 ::selection {
-  color: white;
-  background: black;
+    color: white;
+    background: black;
 }
 
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -49,7 +50,7 @@ nav {
     transition: 200s;
 }
 
-.nav-subsection > div:nth-child(2) {
+.nav-subsection>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,18 +63,12 @@ nav {
     padding: 150px 0px;
 }
 
-h1 {
-    color: #1C1B1F;
-}
-
 h2 {
-    color: #1C1B1F;
     font-weight: 700;
     font-size: 40px;
 }
 
 h3 {
-    color: #1C1B1F;
     font-size: 25px;
     font-weight: normal;
     line-height: 1.5;
@@ -99,14 +94,14 @@ button:hover {
     transition: 200ms;
 }
 
-.hero-subsection > div:nth-child(1) {
+.hero-subsection>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     width: fit-content;
     gap: 180px;
 }
 
-.hero-subsection > div:nth-child(1) > div{
+.hero-subsection>div:nth-child(1)>div {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -122,11 +117,11 @@ button:hover {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 .gallery {
@@ -143,7 +138,7 @@ button:hover {
     transition: 200ms;
 }
 
-.service:hover .serviceicon{
+.service:hover .serviceicon {
     background-color: white;
     color: black;
     transition: 200ms;
@@ -174,4 +169,86 @@ h4 {
 
 .servicetitle {
     font-weight: 600;
+}
+
+#CTA {
+    background-color: black;
+    color: white;
+    padding: 150px;
+}
+
+.CTA-subsection {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.CTA-subsection > div > div > h2 {
+    margin-top: 0px;
+}
+
+.CTA-subsection > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.CTA-subsection>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.field,
+textarea {
+    width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(245,245,245, 0.2);
+    border: none;
+    /* outline-color: white;
+    outline-width: 1px; */
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+    color: white;
+    font-size: 16px;
+}
+
+.servicecheckbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.servicecheckbox input {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(245,245,245, 0.2);
+    outline: none;
+}
+
+#checkflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#submitbutton {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+#submitbutton:hover {
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    color: black;
 }

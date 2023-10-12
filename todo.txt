@@ -1,3 +1,18 @@
 about
 – past testimonials
 – past work portfolio
+
+
+
+faq section
+form functionality (PHP)
+
+react migration? is it even required
+
+git repo (double acc pushing, clonging, forking etc)
+
+sticky navbar animation
+procedure section functionality
+
+
+all links (footer, navbar, #)

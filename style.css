@@ -77,7 +77,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: normal;
     line-height: 1.5;
 }
@@ -366,6 +366,7 @@ footer {
     position: sticky;
     top: 140px;
     padding-top: 0;
+    padding-bottom: 5px;
 }
 
 .desc {
@@ -539,4 +540,105 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.team {
+    padding: 75px 0px 150px 0px;
+}
+
+.team > h2 {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0;
+}
+
+.team > h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.profile {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    transition: 200ms;
+}
+
+.profile-upperinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile:hover {
+    background-color: #f0f0f0;
+    transition: 200ms;
+}
+/* 
+.profile:hover .position{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 200ms;
+} */
+
+.profile-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: 0px -70px;
+    border-radius: 15px;
+}
+
+.profiletitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profiletitle  > div > h3 {
+    font-weight: 700;
+    margin: 0px;
+}
+
+.position > h4 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile > div > div > h4 {
+    margin: 0;
+}
+
+.position {
+    padding: 8px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+    width: fit-content;
+    border: 2px solid #f0f0f0;
+    transition: 200ms;
+}
+
+.positions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }

@@ -16,3 +16,5 @@ procedure section functionality
 
 
 all links (footer, navbar, #)
+
+reset zoom on webpage, display scale in syspref. and resize elements

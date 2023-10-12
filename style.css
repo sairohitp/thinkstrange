@@ -472,10 +472,15 @@ footer {
     justify-content: space-between;
     padding: 75px 0px;
     gap: 100px;
+    height: fit-content;
+}
+
+.wcu-subsection > div > div > h2 {
+    margin-top: 0;
 }
 
 #progress-path {
-    height: 300px;
+    height: 980px;
     width: 2px;
     background-color: black;
     margin-top: 30px;
@@ -512,5 +517,27 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: -113.5px;
+    margin-left: -111.5px;
+}
+
+.bullet {
+    background-color: black;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.wcu-parentrightcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wcu-column {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+    background-color: red;
+    
 }

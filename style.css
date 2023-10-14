@@ -16,7 +16,7 @@
 h1 {
     font-family: 'Libre Bodoni', serif !important;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 .subsection {
-    width: 1250px;
+    width: 1100px;
     margin: 0px auto;
 }
 
@@ -49,7 +49,7 @@ nav {
 .navchild {
     font-weight: 500;
     transition: 200ms;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navchild:hover {
@@ -73,11 +73,11 @@ nav {
 
 h2 {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -87,9 +87,9 @@ button {
     border-radius: 500px;
     background-color: black;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     transition: 200ms;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     width: fit-content;
 }
@@ -98,7 +98,7 @@ button:hover {
     cursor: pointer;
     background-color: white;
     color: black;
-    border: 2px solid black;
+    border: 1px solid black;
     transition: 200ms;
 }
 
@@ -125,6 +125,7 @@ button:hover {
 }
 
 .material-symbols-outlined {
+    font-size: 20px !important;
     font-variation-settings:
         'FILL' 0,
         'wght' 400,
@@ -150,7 +151,7 @@ button:hover {
     background-color: white;
     color: black;
     transition: 200ms;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .service:hover {
@@ -166,17 +167,17 @@ button:hover {
     width: fit-content;
     height: fit-content;
     transition: 200ms;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.5;
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
     line-height: 1;
     margin: 20px 0px;
@@ -260,12 +261,12 @@ textarea {
 #submitbutton {
     background-color: white;
     color: black;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 #submitbutton:hover {
     background-color: #e0e0e0;
-    border: 2px solid #e0e0e0;
+    border: 1px solid #e0e0e0;
     color: black;
 }
 
@@ -289,7 +290,7 @@ footer {
 
 .fa {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     transition: 200ms;
 }
 
@@ -360,22 +361,24 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 100px;
+    /* height: max-content; */
 }
 
-.column {
-    min-width: 550px !important;
+.column , .column > div{
+    width: 450px;
 }
 
 .wcu-column {
     position: sticky;
-    top: 140px;
+    top: 120px;
     padding-top: 0;
     padding-bottom: 5px;
+    width: 450px;
 }
 
 .desc {
     color: #757575;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .why-subsection {
@@ -386,10 +389,10 @@ footer {
 }
 
 #image {
-    width: 550px;
-    border-radius: 18px;
+    width: 450px;
+    border-radius: 15px;
     height: fit-content;
-    height: 380px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -429,8 +432,8 @@ footer {
 
 .icon {
     background-color: black;
-    padding: 25px;
-    border: 2px solid white;
+    padding: 20px;
+    border: 1px solid white;
     border-radius: 100%;
     color: white;
     transition: 200ms;
@@ -444,7 +447,7 @@ footer {
 
 .icon:hover {
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition: 200ms;
     cursor: pointer;
@@ -492,7 +495,7 @@ footer {
 }
 
 #progress-path {
-    height: 980px;
+    height: 840px;
     width: 2px;
     background-color: black;
     margin-top: 30px;
@@ -544,6 +547,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 600px;
 }
 
 .team {
@@ -592,13 +596,13 @@ footer {
 
 .profile:hover .position {
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition: 200ms;
 }
 
 .profile:hover .profile-img {
-    border: 2px solid black;
+    border: 1px solid black;
     transition: 200ms;
 }
 
@@ -609,7 +613,7 @@ footer {
     /* object-position: 0px -70px; */
     border-radius: 500px;
     transition: 200ms;
-    border: 2px solid #f5f5f5;
+    border: 1px solid #f5f5f5;
 }
 
 .profiletitle {
@@ -629,10 +633,9 @@ footer {
     margin: 0px;
 }
 
-.position>h4 {
+.position > h4 {
     margin: 0px;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
 }
 
 .profile>div>div>h4 {
@@ -645,7 +648,7 @@ footer {
     color: white;
     border-radius: 500px;
     width: fit-content;
-    border: 2px solid #f5f5f5;
+    border: 1px solid #f5f5f5;
     transition: 200ms;
 }
 
@@ -692,7 +695,7 @@ a:active {
 
 .faqitem {
     padding: 20px 0px;
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid #dddddd;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     display: flex;
@@ -702,8 +705,8 @@ a:active {
 
 .faqfaicon {
     background-color: black;
-    padding: 25px;
-    border: 2px solid white;
+    padding: 15px;
+    border: 1px solid white;
     border-radius: 100%;
     color: white;
     transition: 200ms;
@@ -711,18 +714,14 @@ a:active {
 
 .faqitem:hover .faqfaicon {
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition: 200ms;
     cursor: pointer;
 }
 
-.faqitem:last-child {
-    border-bottom: none !important;
-}
-
-.faqquestion {
-    padding: 5px 0px;
+.faqcontainer .faqitem:last-child {
+    border-bottom: none;
 }
 
 .faqicon {
@@ -737,7 +736,7 @@ a:active {
 }
 
 .faqanswer.active {
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid #dddddd;
 }
 
 .faqicon i.active {

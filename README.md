@@ -7,9 +7,6 @@ Welcome to the official repository for the ThinkStrange website. ThinkStrange is
 - [About ThinkStrange](#about-thinkstrange)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About ThinkStrange
 
@@ -49,23 +46,3 @@ Follow these steps to get a copy of the project up and running on your local mac
 6. [If applicable] Configure any environment variables necessary for the project.
 
 7. Start your local server, and access the website via a web browser.
-
-## Project Structure
-The project is organized into the following directories and files:
-
-├── index.html<br>
-├── css/<br>
-│   ├── style.css<br>
-│   ├── ...<br>
-├── js/<br>
-│   ├── main.js<br>
-│   ├── ...<br>
-├── php/<br>
-│   ├── api.php<br>
-│   ├── ...<br>
-├── images/<br>
-│   ├── logo.png<br>
-│   ├── ...<br>
-├── ...<br>
-
-Feel free to explore the project structure to understand how the code and assets are organized.

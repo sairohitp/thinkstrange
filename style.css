@@ -756,3 +756,18 @@ a:active {
 #faqheading {
     margin: 20px 0px 60px 0px;
 }
+
+/* Add CSS to style the active icon */
+.icon.active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  /* Default styling for icons */
+  .icon {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  

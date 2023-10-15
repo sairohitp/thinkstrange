@@ -792,3 +792,20 @@ a:active {
     color: white;
     cursor: pointer;
 }
+
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -30px;
+}

@@ -813,3 +813,265 @@ ol ol > li:before {
 .ppsection {
     padding: 75px 0px;
 }
+
+/* Responsive styles using media queries */
+
+/* For screens up to 768px wide (mobile) */
+/*
+@media (max-width: 768px) {
+    .subsection {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .nav-subsection {
+        padding: 10px 0;
+    }
+
+    .navchild {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .service {
+        padding: 20px;
+    }
+}
+*/
+/* For screens between 768px and 1200px wide (tablets) */
+
+/* @media (min-width: 769px) and (max-width: 1200px) {
+    .subsection {
+        padding: 0 40px;
+    }
+
+    .navchild {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .service {
+        padding: 30px;
+    }
+} */
+
+/* For screens larger than 1200px (desktop) */
+/* @media (min-width: 1201px) {
+    .subsection {
+        padding: 0 60px;
+    }
+
+    .navchild {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .service {
+        padding: 40px;
+    }
+} */
+
+/* ... (previous code remains the same) */
+
+/* Responsive styles using media queries */
+
+/* For screens up to 768px wide (mobile) */
+/* @media (max-width: 768px) {
+    .subsection {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .nav-subsection {
+        padding: 10px 0;
+    }
+
+    .navchild {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .service {
+        padding: 20px;
+    }
+
+    .serviceicon {
+        padding: 10px 10px 8px 10px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+    .servicetitle {
+        font-weight: 500;
+    }
+
+    #CTA {
+        padding: 100px;
+    }
+
+    .CTA-subsection {
+        gap: 20px;
+    }
+
+    .field,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .servicecheckbox {
+        gap: 5px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    #submitbutton {
+        padding: 10px 30px;
+    }
+
+    .footer-subsection {
+        gap: 20px;
+    }
+
+    #links {
+        gap: 10px;
+    }
+
+    .fa {
+        font-size: 16px;
+    }
+
+    .splash {
+        line-height: 70vh;
+    }
+
+    .aboutus-hero-subsection {
+        gap: 20px;
+    }
+
+    .column,
+    .column>div {
+        width: 100%;
+    }
+
+    .desc {
+        font-size: 10px;
+    }
+
+    .why-subsection {
+        gap: 20px;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    .wcu-column {
+        top: 80px;
+        width: 100%;
+    }
+
+    .wcu-descrow {
+        gap: 10px;
+    }
+
+    .wcu-descrow>div>h4 {
+        font-size: 10px;
+    }
+
+    .wcu-descrow>div>h3 {
+        font-size: 12px;
+    }
+
+    .wcu-iconrow {
+        gap: 10px;
+    }
+
+    .row {
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .bullet {
+        height: 10px;
+        width: 10px;
+    }
+
+    .wcu-parentrightcolumn {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .profiles {
+        gap: 20px;
+    }
+
+    .profile {
+        padding: 10px;
+        gap: 30px;
+    }
+
+    .profile-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profiletitle>div>h3 {
+        font-size: 14px;
+    }
+
+    .position>h4 {
+        font-size: 10px;
+    }
+
+    .profile>div>div>h4 {
+        font-size: 12px;
+    }
+} */
+
+/* For screens between 769px and 1200px wide (tablets) */

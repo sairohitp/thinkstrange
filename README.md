@@ -53,17 +53,17 @@ Follow these steps to get a copy of the project up and running on your local mac
 ## Project Structure
 The project is organized into the following directories and files:
 
-├── index.html             # The main homepage HTML file
-├── css/                   # CSS styles and files
+├── index.html
+├── css/
 │   ├── style.css
 │   ├── ...
-├── js/                    # JavaScript scripts
+├── js/
 │   ├── main.js
 │   ├── ...
-├── php/                   # PHP scripts and server-side code
+├── php/
 │   ├── api.php
 │   ├── ...
-├── images/                # Image assets
+├── images/
 │   ├── logo.png
 │   ├── ...
 ├── ...

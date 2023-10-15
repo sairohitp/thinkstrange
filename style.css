@@ -362,6 +362,13 @@ footer {
     overflow: hidden; */
 }
 
+.hero-subsection {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+}
+
 .aboutus-hero-subsection {
     display: flex;
     flex-direction: column;
@@ -808,4 +815,8 @@ ol ol > li {
 ol ol > li:before {
     content: counters(item, ".") ". ";
     margin-left: -30px;
+}
+
+.ppsection {
+    padding: 75px 0px;
 }

@@ -22,3 +22,10 @@ reset zoom on webpage, display scale in syspref. and resize elements
 license.md
 
 favicon
+
+
+footer
+form
+responsivity
+git allocation
+domain

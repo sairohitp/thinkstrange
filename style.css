@@ -362,13 +362,6 @@ footer {
     overflow: hidden; */
 }
 
-.hero-subsection {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    text-align: center;
-}
-
 .aboutus-hero-subsection {
     display: flex;
     flex-direction: column;

@@ -368,7 +368,8 @@ footer {
     text-align: center;
 }
 
-.aboutus-hero-subsection > h2, .aboutus-hero-subsection > h3 {
+.aboutus-hero-subsection>h2,
+.aboutus-hero-subsection>h3 {
     z-index: 1;
 }
 
@@ -376,12 +377,13 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    
-    object-fit: cover;
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .aboutus-aboutus-subsection {
     display: flex;

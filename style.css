@@ -49,7 +49,7 @@ nav {
 .navchild {
     font-weight: 500;
     transition: 200ms;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .navchild:hover {
@@ -66,14 +66,14 @@ nav {
 }
 
 #hero {
-    margin-top: 95px;
+    margin-top: 80px;
     background-color: #f5f5f5;
     padding: 150px 0px;
 }
 
 h2 {
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h3 {
@@ -83,7 +83,7 @@ h3 {
 }
 
 button {
-    padding: 20px 60px;
+    padding: 18px 60px;
     border-radius: 500px;
     background-color: black;
     color: white;
@@ -106,18 +106,18 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    gap: 180px;
+    gap: 150px;
 }
 
 .hero-subsection>div:nth-child(1)>div {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    gap: 0px;
+    gap: 20px;
 }
 
 #navbutton {
-    padding: 15px 45px;
+    padding: 14px 40px;
 }
 
 .services-subsection {
@@ -217,8 +217,8 @@ h5 {
 
 .field,
 textarea {
-    width: 600px;
-    padding: 20px;
+    width: 450px;
+    padding: 15px;
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0.2);
     border: none;
@@ -226,14 +226,14 @@ textarea {
     outline-width: 1px; */
     outline: none;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 textarea {
     height: 150px;
     resize: vertical;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .servicecheckbox {
@@ -243,8 +243,8 @@ textarea {
 }
 
 .servicecheckbox input {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     background-color: rgba(245, 245, 245, 0.2);
     outline: none;
 }
@@ -258,7 +258,12 @@ textarea {
     width: 100%;
 }
 
+label {
+    font-size: 14px;
+}
+
 #submitbutton {
+    padding: 14px 40px;
     background-color: white;
     color: black;
     border: 1px solid white;
@@ -354,6 +359,9 @@ footer {
 }
 
 .aboutus-hero-subsection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     text-align: center;
 }
 
@@ -427,7 +435,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: -50px;
+    top: -44px;
 }
 
 .icon {
@@ -471,14 +479,14 @@ footer {
 .procedure-desc {
     display: flex;
     align-items: flex-start;
-    gap: 60px;
+    gap: 50px;
 }
 
 #procedure-image {
-    width: 575px;
-    border-radius: 18px;
+    width: 510px;
+    border-radius: 15px;
     height: fit-content;
-    height: 380px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -495,10 +503,11 @@ footer {
 }
 
 #progress-path {
-    height: 840px;
+    height: 830px;
     width: 2px;
     background-color: black;
     margin-top: 30px;
+    border: none;
 }
 
 .title {
@@ -532,7 +541,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: -111.5px;
+    margin-left: -111px;
 }
 
 .bullet {
@@ -636,6 +645,7 @@ footer {
 .position > h4 {
     margin: 0px;
     font-size: 12px;
+    font-weight: 600;
 }
 
 .profile>div>div>h4 {

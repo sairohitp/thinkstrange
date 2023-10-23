@@ -58,11 +58,32 @@ nav {
     transition: 200s;
 }
 
+.navchild-icon {
+    padding: 12px 13px;
+    font-size: 14px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 200ms;
+}
+
+.navchild-icon:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 200s;
+}
+
 .nav-subsection>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+}
+
+.nav-subsection:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {

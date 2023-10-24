@@ -16,7 +16,7 @@
 h1 {
     font-family: 'Libre Bodoni', serif !important;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 body {
@@ -70,6 +70,7 @@ nav {
     font-size: 13px;
     border-radius: 100%;
     background-color: black;
+    border: 1px solid black;
     color: white;
     transition: 200ms;
 }
@@ -78,6 +79,7 @@ nav {
     cursor: pointer;
     transition: 200ms;
     background-color: white;
+    border: 1px solid black;
     color: black;
 }
 

@@ -99,15 +99,6 @@ function updateContentAndStyle(icon) {
     }
 }
 
-icons[0].classList.add("active");
-updateContentAndStyle(icons[0]);
-
-icons.forEach((icon) => {
-    icon.addEventListener("click", () => {
-        updateContentAndStyle(icon);
-    });
-});
-
 const themeButton = document.querySelector(".navchild-icon");
 const linkElement = document.querySelector('link[rel="stylesheet"]');
 const darkThemeURL = "dark.css";
@@ -122,3 +113,12 @@ function toggleTheme() {
 }
 
 themeButton.addEventListener("click", toggleTheme);
+
+icons[0].classList.add("active");
+updateContentAndStyle(icons[0]);
+
+icons.forEach((icon) => {
+    icon.addEventListener("click", () => {
+        updateContentAndStyle(icon);
+    });
+});

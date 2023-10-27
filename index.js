@@ -109,35 +109,4 @@ icons.forEach((icon) => {
     });
 });
 
-$(document).ready(function () {
-    // Add an initial check to determine if the dark theme is set
-    const isDarkTheme = localStorage.getItem("theme") === "dark";
-    if (isDarkTheme) {
-        $('body').addClass('active');
-        loadDarkTheme();
-    }
-
-    $('.navchild-icon').click(function () {
-        $('body').toggleClass('active');
-
-        if ($('body').hasClass('active')) {
-            localStorage.setItem("theme", "dark");
-            loadDarkTheme();
-        } else {
-            localStorage.setItem("theme", "style");
-            removeDarkTheme();
-        }
-    });
-
-    function loadDarkTheme() {
-        // Add the dark theme CSS file
-        $('head').append('<link rel="stylesheet" href="dark.css" id="dark-theme-link">');
-    }
-
-    function removeDarkTheme() {
-        // Remove the dark theme CSS file
-        $('#dark-theme-link').remove();
-    }
-});
-
 

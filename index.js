@@ -124,7 +124,7 @@ $(document).ready(function () {
             localStorage.setItem("theme", "dark");
             loadDarkTheme();
         } else {
-            localStorage.setItem("theme", "light");
+            localStorage.setItem("theme", "style");
             removeDarkTheme();
         }
     });

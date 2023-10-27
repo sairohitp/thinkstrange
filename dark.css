@@ -21,6 +21,8 @@ h1 {
 
 body {
     margin: 0px;
+    background-color: black;
+    color: white;
 }
 
 .subsection {
@@ -167,7 +169,7 @@ button:hover {
 }
 
 .service {
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     padding: 40px;
     border-radius: 20px;
     transition: 200ms;
@@ -182,7 +184,7 @@ button:hover {
 
 .service:hover {
     cursor: pointer;
-    background-color: #f0f0f0;
+    background-color: #1e1e1e;
 }
 
 .serviceicon {
@@ -332,7 +334,7 @@ footer {
 }
 
 footer {
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     border-top: 1px solid #a0a0a0;
 }
 
@@ -386,7 +388,7 @@ footer {
 
 #hero {
     margin-top: 75px;
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     padding: 150px 0px;
 
     /* position: relative;
@@ -476,7 +478,7 @@ footer {
     /* gap: 80px; */
 
     padding: 40px;
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     border-radius: 20px;
 }
 
@@ -638,7 +640,7 @@ footer {
 .profile {
     padding: 20px;
     border-radius: 20px;
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -652,7 +654,7 @@ footer {
 }
 
 .profile:hover {
-    background-color: #f0f0f0;
+    background-color: #1e1e1e;
     transition: 200ms;
 }
 
@@ -676,7 +678,7 @@ footer {
     /* object-position: 0px -70px; */
     border-radius: 500px;
     transition: 200ms;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #1a1a1a;
 }
 
 .profiletitle {
@@ -712,7 +714,7 @@ footer {
     color: black;
     border-radius: 500px;
     width: fit-content;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #1a1a1a;
     transition: 200ms;
 }
 
@@ -752,7 +754,7 @@ a:active {
 }
 
 .faqcontainer {
-    background-color: #f5f5f5;
+    background-color: #1a1a1a;
     border-radius: 20px;
     padding: 40px;
 }

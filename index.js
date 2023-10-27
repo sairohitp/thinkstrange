@@ -108,3 +108,5 @@ icons.forEach((icon) => {
         updateContentAndStyle(icon);
     });
 });
+
+const themeIcon = document.querySelector(".navchild-icon")

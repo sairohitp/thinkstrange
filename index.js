@@ -97,10 +97,9 @@ function updateContentAndStyle(icon) {
         // Add 'active' class to the clicked icon
         icon.classList.add("active");
     }
-
 }
 
-icons[0].classList.add('active');
+icons[0].classList.add("active");
 updateContentAndStyle(icons[0]);
 
 icons.forEach((icon) => {
@@ -109,21 +108,17 @@ icons.forEach((icon) => {
     });
 });
 
-const themeButton = document.querySelector('.navchild-icon');
-  const linkElement = document.querySelector('link[rel="stylesheet"]');
-  const darkThemeURL = 'dark-theme.css'; // Replace with your dark theme stylesheet URL
-  const lightThemeURL = 'style.css'; // Replace with your light theme stylesheet URL
+const themeButton = document.querySelector(".navchild-icon");
+const linkElement = document.querySelector('link[rel="stylesheet"]');
+const darkThemeURL = "dark-theme.css";
+const lightThemeURL = "style.css";
 
-  // Function to toggle between dark and light themes
-  function toggleTheme() {
-    if (linkElement.getAttribute('href') === darkThemeURL) {
-      linkElement.setAttribute('href', lightThemeURL);
+function toggleTheme() {
+    if (linkElement.getAttribute("href") === darkThemeURL) {
+        linkElement.setAttribute("href", lightThemeURL);
     } else {
-      linkElement.setAttribute('href', darkThemeURL);
+        linkElement.setAttribute("href", darkThemeURL);
     }
-  }
+}
 
-  // Add a click event listener to the theme button
-  themeButton.addEventListener('click', toggleTheme);
-
-
+themeButton.addEventListener("click", toggleTheme);

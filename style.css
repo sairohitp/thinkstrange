@@ -66,7 +66,7 @@ nav {
 }
 
 .navchild-icon {
-    padding: 13px 14px 12px 14px;
+    padding: 13px 15px 11px 15px;
     font-size: 13px;
     border-radius: 100%;
     background-color: black;
@@ -77,6 +77,7 @@ nav {
 
 .navchild-icon:hover {
     cursor: pointer;
+    font-size: 13px;
     transition: 200ms;
     background-color: white;
     border: 1px solid black;

@@ -109,4 +109,21 @@ icons.forEach((icon) => {
     });
 });
 
+const themeButton = document.querySelector('.navchild-icon');
+  const linkElement = document.querySelector('link[rel="stylesheet"]');
+  const darkThemeURL = 'dark.css'; // Replace with your dark theme stylesheet URL
+  const lightThemeURL = 'style.css'; // Replace with your light theme stylesheet URL
+
+  // Function to toggle between dark and light themes
+  function toggleTheme() {
+    if (linkElement.getAttribute('href') === darkThemeURL) {
+      linkElement.setAttribute('href', lightThemeURL);
+    } else {
+      linkElement.setAttribute('href', darkThemeURL);
+    }
+  }
+
+  // Add a click event listener to the theme button
+  themeButton.addEventListener('click', toggleTheme);
+
 

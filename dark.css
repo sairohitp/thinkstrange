@@ -1,0 +1,277 @@
+/* dark.css */
+
+::-moz-selection {
+    color: black;
+    background: white;
+}
+
+::selection {
+    color: black;
+    background: white;
+}
+
+body {
+    background-color: #222;
+    color: white;
+}
+
+nav {
+    background-color: #111;
+}
+
+.navchild,
+.navchild-icon {
+    background-color: #111;
+    color: white;
+    border: 1px solid #111;
+}
+
+.navchild:hover,
+.navchild-icon:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #111;
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.subsection,
+.services-subsection,
+#CTA,
+.gallery,
+.hero-subsection,
+.aboutus-hero-subsection,
+.why-subsection,
+.aboutus-aboutus-subsection,
+.operating-procedure,
+.wcu-subsection,
+.team,
+.profiles,
+.faqcontainer {
+    background-color: #333;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+button {
+    background-color: #111;
+    color: white;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #111;
+}
+
+.service {
+    background-color: #444;
+    color: white;
+}
+
+.service:hover .serviceicon {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #111;
+}
+
+#CTA,
+#faqheading {
+    color: white;
+}
+
+hr {
+    background-color: #111;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    color: #a0a0a0;
+}
+
+.splash,
+.splash.display-none {
+    background-color: #111;
+    color: white;
+}
+
+.social-logos {
+    color: white;
+}
+
+.profile {
+    background-color: #444;
+    color: white;
+}
+
+.profile:hover .position,
+.profile:hover .profile-img {
+    background-color: #fff;
+    border: 1px solid #111;
+    color: black;
+}
+
+/* Add dark theme specific styles as needed */
+
+/* dark.css (continued) */
+
+.field,
+textarea {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.servicecheckbox input {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.label {
+    color: white;
+}
+
+#submitbutton {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #fff;
+}
+
+#submitbutton:hover {
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    color: black;
+}
+
+.footer-subsection {
+    background-color: #333;
+}
+
+#links {
+    color: white;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    color: #a0a0a0;
+}
+
+.socials {
+    color: white;
+}
+
+.aboutus-hero-subsection > h2,
+.aboutus-hero-subsection > h3 {
+    color: white;
+}
+
+.faqcontainer {
+    background-color: #444;
+}
+
+.faqitem {
+    color: white;
+    border-bottom: 1px solid #777;
+}
+
+.faqitem:hover .faqfaicon {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #111;
+}
+
+.faqanswer.active {
+    border-bottom: 1px solid #777;
+}
+
+.faqicon i.active {
+    transform: rotate(-180deg);
+}
+
+.icon.active {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #111;
+}
+
+/* Add dark theme specific styles as needed */
+
+
+/* dark.css (continued) */
+
+/* Add dark theme specific styles for other elements as needed */
+
+/* Example dark theme for the splash section */
+.splash {
+    background-color: #111;
+    color: white;
+}
+
+/* Example dark theme for the hero section */
+#hero {
+    background-color: #111;
+}
+
+.aboutus-hero-subsection {
+    color: white;
+}
+
+/* Example dark theme for the team section */
+.team {
+    background-color: #111;
+}
+
+.profiles {
+    background-color: #222;
+    color: white;
+}
+
+.profile {
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.profile:hover {
+    background-color: #444;
+}
+
+.profiletitle > div > h3 {
+    color: white;
+}
+
+.position {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Add more dark theme specific styles as needed */
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    /* Add mobile-specific dark theme styles */
+}
+
+/* Responsive styles for tablets */
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Add tablet-specific dark theme styles */
+}
+
+/* Responsive styles for larger screens (desktop) */
+@media (min-width: 1201px) {
+    /* Add desktop-specific dark theme styles */
+}

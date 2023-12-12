@@ -234,7 +234,7 @@ h5 {
     flex-direction: column;
 }
 
-.CTA-subsection>div:nth-child(2) {
+.CTA-subsection>div:nth-child(2)>form {
     display: flex;
     flex-direction: column;
     gap: 20px;

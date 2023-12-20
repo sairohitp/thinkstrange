@@ -1,507 +1,501 @@
 ::-moz-selection {
-    /* Code for Firefox */
-    color: black;
-    background: white;
+  /* Code for Firefox */
+  color: black;
+  background: white;
 }
 
 ::selection {
-    color: black;
-    background: white;
+  color: black;
+  background: white;
 }
 
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
-    font-family: 'Libre Bodoni', serif !important;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: "Libre Bodoni", serif !important;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 body {
-    margin: 0px;
-    background-color: black;
-    color: white;
+  margin: 0px;
+  background-color: black;
+  color: white;
 }
 
 .subsection {
-    width: 1100px;
-    margin: 0px auto;
+  width: 1100px;
+  margin: 0px auto;
 }
 
 nav {
-    border-bottom: 1px solid #a0a0a0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    z-index: 10;
-    display: block;
+  border-bottom: 1px solid #a0a0a0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 10;
+  display: block;
 }
 
 .nav-subsection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
 }
 
 .navchild {
-    font-weight: 500;
-    font-size: 13px;
-    padding: 12px 25px;
-    border-radius: 11px;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    transition: 200ms;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 12px 25px;
+  border-radius: 11px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transition: 200ms;
 }
 
 .navchild:hover {
-    cursor: pointer;
-    transition: 200ms;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+  cursor: pointer;
+  transition: 200ms;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .navchild-icon {
-    padding: 13px 15px 11px 15px;
-    font-size: 13px;
-    border-radius: 100%;
-    background-color: white;
-    border: 1px solid white;
-    color: black;
-    transition: 200ms;
+  padding: 13px 15px 11px 15px;
+  font-size: 13px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  transition: 200ms;
 }
 
 .navchild-icon:hover {
-    cursor: pointer;
-    font-size: 13px;
-    transition: 200ms;
-    background-color: black;
-    border: 1px solid white;
-    color: white;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 200ms;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
 }
 
-.nav-subsection>div:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+.nav-subsection > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
-.nav-subsection>div:nth-child(3) {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
+.nav-subsection > div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 h2 {
-    font-weight: 800;
-    font-size: 25px;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 h3 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 button {
-    padding: 18px 60px;
-    border-radius: 1000px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    transition: 200ms;
-    font-size: 12px;
-    font-weight: 700;
-    width: fit-content;
+  padding: 18px 60px;
+  border-radius: 1000px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 200ms;
+  font-size: 12px;
+  font-weight: 700;
+  width: fit-content;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    transition: 200ms;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: 200ms;
 }
 
-.hero-subsection>div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    gap: 150px;
+.hero-subsection > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 150px;
 }
 
-.hero-subsection>div:nth-child(1)>div {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    gap: 20px;
+.hero-subsection > div:nth-child(1) > div {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 20px;
 }
 
 #navbutton {
-    padding: 14px 40px;
+  padding: 14px 40px;
 }
 
 .services-subsection {
-    padding: 150px 0px;
+  padding: 150px 0px;
 }
 
 .material-symbols-outlined {
-    font-size: 20px !important;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
+  font-size: 20px !important;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 80px;
 }
 
 .service {
-
-    background-color: #1a1a1a;
-    padding: 40px;
-    border-radius: 20px;
-    transition: 200ms;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  transition: 200ms;
 }
 
 .service:hover .serviceicon {
-    background-color: black;
-    color: white;
-    transition: 200ms;
-    border: 1px solid white;
+  background-color: black;
+  color: white;
+  transition: 200ms;
+  border: 1px solid white;
 }
 
 .service:hover {
-    cursor: pointer;
-    background-color: #1e1e1e;
+  cursor: pointer;
+  background-color: #1e1e1e;
 }
 
 .serviceicon {
-    background-color: white;
-    color: black;
-    padding: 20px 20px 17px 20px;
-    border-radius: 100px;
-    width: fit-content;
-    height: fit-content;
-    transition: 200ms;
-    border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 20px 20px 17px 20px;
+  border-radius: 100px;
+  width: fit-content;
+  height: fit-content;
+  transition: 200ms;
+  border: 1px solid white;
 }
 
 h4 {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.5;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 h5 {
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 1;
-    margin: 20px 0px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 20px 0px;
 }
 
 .servicetitle {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #CTA {
-    background-color: white;
-    color: black;
-    padding: 150px;
+  background-color: white;
+  color: black;
+  padding: 150px;
 }
 
 .CTA-subsection {
-    display: flex;
-    align-items: flex-start;
-    gap: 100px;
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
 }
 
-.CTA-subsection>div>div>h2 {
-    margin-top: 0px;
+.CTA-subsection > div > div > h2 {
+  margin-top: 0px;
 }
 
-.CTA-subsection>div {
-    display: flex;
-    flex-direction: column;
+.CTA-subsection > div {
+  display: flex;
+  flex-direction: column;
 }
 
-.CTA-subsection>div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-end;
+.CTA-subsection > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
 }
 
 .field,
 textarea {
-    width: 450px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: rgba(45, 45, 45, 0.2);
-    border: none;
-    /* outline-color: black;
+  width: 450px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(45, 45, 45, 0.2);
+  border: none;
+  /* outline-color: black;
     outline-width: 1px; */
-    outline: none;
-    color: black;
-    font-size: 14px;
+  outline: none;
+  color: black;
+  font-size: 14px;
 }
 
 textarea {
-    height: 150px;
-    resize: vertical;
-    color: black;
-    font-size: 14px;
+  height: 150px;
+  resize: vertical;
+  color: black;
+  font-size: 14px;
 }
 
 .servicecheckbox {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .servicecheckbox input {
-    height: 18px;
-    width: 18px;
-    background-color: rgba(245, 245, 245, 0.2);
-    outline: none;
+  height: 18px;
+  width: 18px;
+  background-color: rgba(245, 245, 245, 0.2);
+  outline: none;
 }
 
 #checkflex {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    margin: 20px 0px;
-    width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  margin: 20px 0px;
+  width: 100%;
 }
 
 label {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #submitbutton {
-    padding: 14px 40px;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
+  padding: 14px 40px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
 }
 
 #submitbutton:hover {
-    background-color: white;
-    border: 1px solid black;
-    color: black;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
 }
 
 footer {
-    padding: 40px 0px;
+  padding: 40px 0px;
 }
 
-.footer-subsection>div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.footer-subsection > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #links {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .fa {
-    color: white;
-    font-size: 18px;
-    transition: 200ms;
+  color: white;
+  font-size: 18px;
+  transition: 200ms;
 }
 
 .fa:hover {
-    color: #a0a0a0;
-    cursor: pointer;
-    transition: 200ms;
+  color: #a0a0a0;
+  cursor: pointer;
+  transition: 200ms;
 }
 
 footer {
-    background-color: #1a1a1a;
-    border-top: 1px solid #a0a0a0;
+  background-color: #1a1a1a;
+  border-top: 1px solid #a0a0a0;
 }
 
 .socials {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .splash {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 200;
-    text-align: center;
-    line-height: 90vh;
-    background-color: white;
-    color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  text-align: center;
+  line-height: 90vh;
+  background-color: white;
+  color: black;
 }
 
 .splash.display-none {
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -10;
-    text-align: center;
-    line-height: 90vh;
-    background-color: white;
-    color: black;
-    transition: all 0.5s;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  text-align: center;
+  line-height: 90vh;
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
 }
 
 @keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .fade-in {
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in forwards;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 #aboutus {
-    padding: 75px 0px;
+  padding: 75px 0px;
 }
 
 #hero {
-    margin-top: 75px;
-    background-color: #1a1a1a;
-    padding: 150px 0px;
+  margin-top: 75px;
+  background-color: #1a1a1a;
+  padding: 150px 0px;
 
-    /* position: relative;
+  /* position: relative;
     justify-content: center;
     overflow: hidden; */
 }
 
 .aboutus-hero-subsection {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
 }
 
-.aboutus-hero-subsection>h2,
-.aboutus-hero-subsection>h3 {
-    z-index: 1;
+.aboutus-hero-subsection > h2,
+.aboutus-hero-subsection > h3 {
+  z-index: 1;
 }
 
 .vidcontainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutus-aboutus-subsection {
-    display: flex;
-    align-items: flex-start;
-    gap: 100px;
-    /* height: max-content; */
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  /* height: max-content; */
 }
 
 .column,
-.column>div {
-    width: 450px;
+.column > div {
+  width: 450px;
 }
 
 .wcu-column {
-    position: sticky;
-    top: 120px;
-    padding-top: 0;
-    padding-bottom: 5px;
-    width: 450px;
+  position: sticky;
+  top: 120px;
+  padding-top: 0;
+  padding-bottom: 5px;
+  width: 450px;
 }
 
 .desc {
-    color: #757575;
-    font-size: 14px;
+  color: #757575;
+  font-size: 14px;
 }
 
 .why-subsection {
-
-    display: flex;
-    align-items: flex-start;
-    gap: 100px;
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
 }
 
 #image {
-    width: 450px;
-    border-radius: 15px;
-    height: fit-content;
-    height: 300px;
-    object-fit: cover;
+  width: 450px;
+  border-radius: 15px;
+  height: fit-content;
+  height: 300px;
+  object-fit: cover;
 }
 
-.why-subsection>div>h2 {
-    margin-top: 0;
+.why-subsection > div > h2 {
+  margin-top: 0;
 }
 
-.why-subsection>div>h4 {
-    margin-bottom: 0;
+.why-subsection > div > h4 {
+  margin-bottom: 0;
 }
 
 .aboutsection {
-    padding: 75px 0px;
+  padding: 75px 0px;
 }
 
 .operating-procedure {
-    display: flex;
-    flex-direction: column;
-    /* gap: 80px; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 80px; */
 
-    padding: 40px;
-    background-color: #1a1a1a;
-    border-radius: 20px;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
 }
 
 #section-title {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 #row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    top: -44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -44px;
 }
 
 .icon {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 100%;
-    color: black;
-    transition: 200ms;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 100%;
+  color: black;
+  transition: 200ms;
 }
 
 /* #row > div {
@@ -511,342 +505,340 @@ footer {
 } */
 
 .icon:hover {
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-    transition: 200ms;
-    cursor: pointer;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  transition: 200ms;
+  cursor: pointer;
 }
 
-#row>div>h3 {
-    font-weight: 600;
-    font-size: 20px;
+#row > div > h3 {
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* #bar {
     position: relative;
 } */
 
-#bar>hr {
-    width: 90%;
-    height: 2px;
-    background-color: white;
+#bar > hr {
+  width: 90%;
+  height: 2px;
+  background-color: white;
 }
 
 .procedure-desc {
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
 }
 
 #procedure-image {
-    width: 510px;
-    border-radius: 15px;
-    height: fit-content;
-    height: 300px;
-    object-fit: cover;
+  width: 510px;
+  border-radius: 15px;
+  height: fit-content;
+  height: 300px;
+  object-fit: cover;
 }
 
 .wcu-subsection {
-    display: flex;
-    justify-content: space-between;
-    padding: 75px 0px;
-    gap: 100px;
-    height: max-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 0px;
+  gap: 100px;
+  height: max-content;
 }
 
-.wcu-subsection>div>div>div>h2 {
-    margin-top: 0;
+.wcu-subsection > div > div > div > h2 {
+  margin-top: 0;
 }
 
 #progress-path {
-    height: 830px;
-    width: 2px;
-    background-color: white;
-    margin-top: 30px;
-    border: none;
+  height: 830px;
+  width: 2px;
+  background-color: white;
+  margin-top: 30px;
+  border: none;
 }
 
 .title {
-    font-weight: 700;
-    margin-top: 0;
+  font-weight: 700;
+  margin-top: 0;
 }
 
 .wcu-descrow {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 55px;
 }
 
-.wcu-descrow>div>h4 {
-    margin-top: 0;
+.wcu-descrow > div > h4 {
+  margin-top: 0;
 }
 
-.wcu-descrow>div>h3 {
-    margin-bottom: 0;
+.wcu-descrow > div > h3 {
+  margin-bottom: 0;
 }
 
 .wcu-iconrow {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .row {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-left: -111px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: -111px;
 }
 
 .bullet {
-    background-color: white;
-    border-radius: 100%;
-    height: 20px;
-    width: 20px;
-    display: block;
+  background-color: white;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  display: block;
 }
 
 .wcu-parentrightcolumn {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 600px;
 }
 
 .team {
-    padding: 75px 0px 150px 0px;
+  padding: 75px 0px 150px 0px;
 }
 
-.team>h2 {
-    font-weight: 800;
-    text-align: center;
-    margin-top: 0;
+.team > h2 {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 0;
 }
 
-.team>h3 {
-    text-align: center;
-    font-weight: 600;
+.team > h3 {
+  text-align: center;
+  font-weight: 600;
 }
 
 .profiles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 100px;
 }
 
 .profile {
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    transition: 200ms;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  transition: 200ms;
 }
 
 .profile-upperinfo {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .profile:hover {
-    background-color: #1e1e1e;
-    transition: 200ms;
+  background-color: #1e1e1e;
+  transition: 200ms;
 }
 
-
 .profile:hover .position {
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-    transition: 200ms;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  transition: 200ms;
 }
 
 .profile:hover .profile-img {
-    border: 1px solid white;
-    transition: 200ms;
+  border: 1px solid white;
+  transition: 200ms;
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    /* object-position: 0px -70px; */
-    border-radius: 500px;
-    transition: 200ms;
-    border: 1px solid #1a1a1a;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* object-position: 0px -70px; */
+  border-radius: 500px;
+  transition: 200ms;
+  border: 1px solid #1a1a1a;
 }
 
 .profiletitle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social-logos {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.profiletitle>div>h3 {
-    font-weight: 700;
-    margin: 0px;
+.profiletitle > div > h3 {
+  font-weight: 700;
+  margin: 0px;
 }
 
-.position>h4 {
-    margin: 0px;
-    font-size: 12px;
-    font-weight: 600;
+.position > h4 {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.profile>div>div>h4 {
-    margin: 0;
+.profile > div > div > h4 {
+  margin: 0;
 }
 
 .position {
-    padding: 8px 25px;
-    background-color: white;
-    color: black;
-    border-radius: 500px;
-    width: fit-content;
-    border: 1px solid #1a1a1a;
-    transition: 200ms;
+  padding: 8px 25px;
+  background-color: white;
+  color: black;
+  border-radius: 500px;
+  width: fit-content;
+  border: 1px solid #1a1a1a;
+  transition: 200ms;
 }
 
 .positions {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* unvisited link */
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-
 .faq-subsection {
-    padding: 0px 0px 150px 0px;
+  padding: 0px 0px 150px 0px;
 }
 
 .faqcontainer {
-    background-color: #1a1a1a;
-    border-radius: 20px;
-    padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 40px;
 }
 
 .faqitem {
-    padding: 20px 0px;
-    border-bottom: 1px solid #dddddd;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #dddddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .faqfaicon {
-    background-color: white;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 100%;
-    color: black;
-    transition: 200ms;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 100%;
+  color: black;
+  transition: 200ms;
 }
 
 .faqitem:hover .faqfaicon {
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-    transition: 200ms;
-    cursor: pointer;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  transition: 200ms;
+  cursor: pointer;
 }
 
 .faqcontainer .faqitem:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .faqicon {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .faqanswer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-    padding: 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  padding: 0px;
 }
 
 .faqanswer.active {
-    border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 .faqicon i.active {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 #faqheading {
-    margin: 20px 0px 60px 0px;
+  margin: 20px 0px 60px 0px;
 }
 
 /* Add CSS to style the active icon */
 .icon.active {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
 /* Default styling for icons */
 .icon {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 ol {
-    counter-reset: item;
+  counter-reset: item;
 }
 
 ol > li {
-    counter-increment: item;
+  counter-increment: item;
 }
 
 ol ol > li {
-    display: block;
+  display: block;
 }
 
 ol ol > li:before {
-    content: counters(item, ".") ". ";
-    margin-left: -30px;
+  content: counters(item, ".") ". ";
+  margin-left: -30px;
 }
 
 .ppsection {
-    padding: 75px 0px;
+  padding: 75px 0px;
 }
 
 /* Responsive styles using media queries */

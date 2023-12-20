@@ -101,8 +101,8 @@ function updateContentAndStyle(icon) {
 
 const themeButton = document.querySelector(".navchild-icon");
 const linkElement = document.querySelector('link[rel="stylesheet"]');
-const darkThemeURL = "Styles/dark.css";
-const lightThemeURL = "Styles/style.css";
+const darkThemeURL = "dark.css";
+const lightThemeURL = "style.css";
 
 function toggleTheme() {
     if (linkElement.getAttribute("href") === darkThemeURL) {

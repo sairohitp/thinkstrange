@@ -1100,3 +1100,25 @@ ol ol > li:before {
 } */
 
 /* For screens between 769px and 1200px wide (tablets) */
+
+#mobile-message{
+  display: none;
+}
+
+/* Media query for mobile and tablet devices */
+@media only screen and (max-width: 1200px) {
+  #content-container {
+    display: none; /* Hide the entire website content */
+  }
+
+  /* Style for the message */
+  #mobile-message {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+  }
+}

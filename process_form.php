@@ -11,9 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Use mail() function to send the email
     mail($to, $subject, $body);
-
-    // Optionally, you can redirect the user to a thank you page
-    header("Location: thank_you_page.html");
     exit;
 }
 ?>

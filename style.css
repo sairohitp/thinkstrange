@@ -1099,8 +1099,6 @@ ol ol > li:before {
     }
 } */
 
-/* For screens between 769px and 1200px wide (tablets) */
-
 #mobile-message{
   display: none;
 }
